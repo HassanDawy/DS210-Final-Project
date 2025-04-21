@@ -1,0 +1,9 @@
+[package]
+name = "facebook_graph_analysis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.16.1"
+csv = "1.1"
+flate2 = "1.0"
