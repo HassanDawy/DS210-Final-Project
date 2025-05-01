@@ -58,8 +58,8 @@ impl Graph {
 
 
 //TESTS
-#[cfg(test)]
-mod tests {
+#[cfg(test)] //Attribute that allows Rust to include this module only during cargo test
+mod tests { //Submodule that contains our tests
     use super::*;
     use std::collections::HashSet;
 

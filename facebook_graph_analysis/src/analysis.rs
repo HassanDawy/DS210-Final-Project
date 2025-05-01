@@ -101,8 +101,8 @@ pub fn most_similar_pairs(graph: &Graph, top_n: usize) -> Vec<((usize, usize), f
 }
 
 //TESTS for the algorithms in analysis.rs
-#[cfg(test)]
-mod tests {
+#[cfg(test)] //To include our tests in cargo test
+mod tests { //Submodule to put our tests in
     use super::*;
     use crate::graph::Graph;
     use std::collections::HashSet;
